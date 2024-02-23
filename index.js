@@ -66,7 +66,7 @@ function generateFood() {
     snake.forEach(element => {
         if(newfood.x == element.x && newfood.y == element.y){
             console.log("yess")
-            generateFood();
+            food = generateFood();
         }
     })
     return { x, y }
